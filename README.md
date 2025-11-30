@@ -102,3 +102,8 @@ The backend must run on the same machine where the fingerprint scanner and camer
 The biometric verification process cannot run fully because fingerprint and face authentication require physical hardware access.
 
 
+
+NOTE:-
+
+For transparency, this repository includes only the Midnight protocol contract source file inside the "midnight-contract/" folder.
+The full Midnight runtime project is excluded due to file size and environment requirements, but this contract represents the exact ZK-verification logic intended for deployment in the Midnight chain.
