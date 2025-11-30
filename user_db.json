@@ -1,0 +1,68 @@
+{
+    "927461272626": {
+        "name": "Sinthanaiselvan G",
+        "father_name": "Gnanaprakasam M",
+        "age": 19,
+        "gender": "Male",
+        "phone": "8015386964",
+        "address": "16/23,Gandhi Nagar,Virudhachalam,Cuddalore-606001",
+        "aadhar": "927461272626",
+        "face_image": "/home/gspi/connected/faces/sinthanai.jpg",
+        "fingerprint_pages": [0]
+    },
+    "9599 0273 2873": {
+        "name": "Sathik Ali A",
+        "father_name": "Abdul Kahnder",
+        "age": 19,
+        "gender": "male",
+        "phone": "8870086761",
+        "address": "mailkal, coimbatore - 08",
+        "aadhar": "9599 0273 2873",
+        "face_image": "/home/gspi/connected/faces/sathik.jpg",
+        "fingerprint_pages": [1]
+    },
+    "4911 2290 0196": {
+        "name": "Dhas Prakash J",
+        "father_name": "John Kiltas V",
+        "age": 19,
+        "gender": "male",
+        "phone": "9043848598",
+        "address": "karankadu, kanyakumari - 09",
+        "aadhar": "4911 2290 0196",
+        "face_image": "/home/gspi/connected/faces/dhas.jpg",
+        "fingerprint_pages": [2]
+    },
+    "857542631321": {
+        "name": "Sangeerth S R",
+        "father_name": "Sreekumar V",
+        "age": 19,
+        "gender": "Male",
+        "phone": "8870341243",
+        "address": "sangeerthsangeerth84@gmail.com",
+        "aadhar": "857542631321",
+        "face_image": "/home/gspi/connected/faces/sangeerth.jpg",
+        "fingerprint_pages": [3]
+    },
+    "9202 5508 5022": {
+        "name": "Rifa fathima",
+        "father_name": "Faizal asan mohammed",
+        "age": 19,
+        "gender": "female",
+        "phone": "9385767586",
+        "address": "Cr street",
+        "aadhar": "9202 5508 5022",
+        "face_image": "/home/gspi/connected/faces/rifa_fathima.jpg",
+        "fingerprint_pages": [5]
+    },
+    "905744865687": {
+        "name": "Sreeshnu S A",
+        "father_name": "Suresh S",
+        "age": 20,
+        "gender": "Male",
+        "phone": "9443629462",
+        "address": "Kolvel,Thiruvarambu,KanyaKumari",
+        "aadhar": "905744865687",
+        "face_image": "/home/gspi/connected/faces/sreeshnu.jpg",
+        "fingerprint_pages": [4]
+    }
+}
