@@ -68,3 +68,37 @@ Your vote has been successfully recorded. Thank you for participating in the ele
 pip install fastapi uvicorn python-multipart twilio face-recognition opencv-python
 uvicorn main:app --reload
 
+
+⚠️ Important Notes / System Requirements
+
+This prototype involves hardware-assisted biometric authentication. To ensure proper functioning of the system, the following requirements and constraints must be acknowledged:
+
+🔹 Hardware Dependencies
+
+The application requires:
+
+A Fingerprint Scanner Module (R307 / GT-511 / compatible serial biometric sensor)
+
+A Web Camera with user permission for live face capture
+
+Without these biometric devices physically connected, the verification flow will not proceed.
+
+🔹 Browser Permissions
+
+The following permissions must be granted by the end user:
+
+Camera access
+
+Autoplay permission for video stream
+
+Face verification will not function if the browser blocks access to camera or if permissions are denied.
+
+🔹 Limited Deployment Behavior
+
+Because biometric devices are connected locally:
+
+The backend must run on the same machine where the fingerprint scanner and camera are connected
+
+The biometric verification process cannot run fully because fingerprint and face authentication require physical hardware access.
+
+
