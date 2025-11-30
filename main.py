@@ -293,9 +293,9 @@ async def send_sms(payload: dict):
         return {"ok": False, "message": "Phone number missing"}
 
     try:
-        account_sid = "ACeae5334fdb758f4e2b7bffc6732da26f"
-        auth_token = "a625af2d2dcf190a7dcd41b838e1a0e3"
-        twilio_number = "+13024929658"
+        account_sid = ""
+        auth_token = ""
+        twilio_number = ""
 
         client = Client(account_sid, auth_token)
         message = client.messages.create(
@@ -310,4 +310,5 @@ async def send_sms(payload: dict):
     except Exception as e:
         print("SMS Error:", e)
         return {"ok": False, "message": "SMS sending failed"}
+
 
