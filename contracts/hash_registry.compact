@@ -1,0 +1,17 @@
+contract HashRegistry {
+    state {
+        seen: mapping<hash, bool>;
+    }
+
+    transition checkAndStore(h: hash) -> bool {
+        if (state.seen[h]) {
+            return true;  // already exists
+        }
+        state.seen[h] = true;
+        return false;     // newly stored
+    }
+
+    query isSeen(h: hash) -> bool {
+        return state.seen[h];
+    }
+} 
