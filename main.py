@@ -38,7 +38,7 @@ def load_users_db():
 app = FastAPI() 
 
 
-app.mount("/static", StaticFiles(directory="/home/gspi/connected/static"), name="static")
+app.mount("/static", StaticFiles(directory="/static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
 @app.get("/")
@@ -310,3 +310,4 @@ async def send_sms(payload: dict):
     except Exception as e:
         print("SMS Error:", e)
         return {"ok": False, "message": "SMS sending failed"}
+
